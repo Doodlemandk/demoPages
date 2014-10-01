@@ -1,0 +1,56 @@
+body{
+  margin:0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+.sogBtn {
+	background: url(/Media/images/search.svg) no-repeat;
+	background-size: 20px;
+	background-position: center right;
+	width: 20%;
+	height: 20px;
+	cursor: pointer;
+}
+.sogBar {
+	background: rgba(54,54,54,1);
+	width: 320px;
+	height: 41px;
+	margin-left: -160px;
+	padding: 3px;
+	position: absolute;
+	top: -41px;
+	left: 50%;
+	box-sizing: border-box;
+	transition: top 0.2s ease;
+	z-index: 99999;
+}
+.sogBarDown {
+	top: 0;
+}
+.sogBar input {
+	box-sizing: border-box;
+	transition: all 0.3s ease;
+	color: #fff;
+}
+.sogBar input {
+	background: #565656;
+	width: 76%;
+	padding: 9px 3px;
+	border: none;
+}
+.sogBar input:focus {
+	background: #767676;
+}
+.sogBar input[type=submit] {
+	background: #3688b7;
+	width: 22.5%;
+	padding: 8px 0;
+	border: none;
+	cursor: pointer;
+}
+.sogBar input[type=submit]:hover {
+	background: #91c93a;
+}
+.sogBar input[type=submit]:active {
+	background: #72953a;
+}
