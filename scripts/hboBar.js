@@ -1,1 +1,3 @@
-// Fun starts here
+$(".loginDisplay").click(function () {
+  $(".loginBarHidden").slideToggle(250);
+});

@@ -1,3 +1,21 @@
-body {
-  margin: 0;
+body{
+  margin:0;
+  background:#333;
+}
+nav {
+  padding-top:20px;
+}
+nav a {
+  padding-left:20px;
+  color:#fff;
+  text-decoration:none;
+}
+.loginBarHidden {
+  background:grey;
+  height:40px;
+  padding-top:20px;
+  display:none;
+}
+.loginBar {
+  display:visible;
 }
